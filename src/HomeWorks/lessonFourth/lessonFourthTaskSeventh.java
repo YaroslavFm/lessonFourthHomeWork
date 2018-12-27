@@ -8,7 +8,6 @@ public class lessonFourthTaskSeventh {
         int count = 0;
         int countTemp = 0;
         for (int i = 0; i < a.length; i++) {
-            //cc = 0;
             for (int j = 0; j < a.length; j++) { if (a[j] == a[i])
                 countTemp++; }
             if (countTemp > count) { num = a[i];
