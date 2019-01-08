@@ -10,9 +10,9 @@ public class lessonFifthTaskThird {
 
     public static void main(String[] args) {
         bin();
-
-        //showSum();
+        showSum();
     }
+
     public static String bin(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите Ваше число");
@@ -25,7 +25,7 @@ public class lessonFifthTaskThird {
     public static void showSum() {
         for (int i = 0; i < b.length(); i++){
             if (b.charAt(i) == '1') sum++;
-            System.out.println("Содержит = " + sum + " символов '1' "); //выводим на экран
+            System.out.println("Содержит = " + sum + " символов '1' ");
         }
     }
 }
