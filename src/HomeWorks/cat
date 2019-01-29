@@ -1,0 +1,85 @@
+package lessonFirstHomework;
+
+public class Cat {
+	
+	private String name;
+	private String color;
+	private double weight;
+	private int age;
+	private int health;
+	private int strength;
+	
+	public Cat (String name, String color, double weight, int age, int health, int strength) {
+		super();
+		this.name = name;
+		this.color = color;
+		this.weight = weight;
+		this.age = age;
+		this.health = health;
+		this.strength = strength;	
+	}
+	
+	public Cat() {
+		super();
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public double getWeight() {
+		return weight;
+	}
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getHealth() {
+		return health;
+	}
+	public void setHealth(int health) {
+		this.health = health;
+	}
+	
+	public int getStrength() {
+		return strength;
+	}
+	public void setStrength(int strength) {
+		this.strength = strength;
+	}
+	public void eat() {
+		if (weight < 3)
+		System.out.println("Hey, slave, give me some food!");
+		else
+			System.out.println("Slave, I dont want to eat...");
+	}
+	public void badDeal() {
+		System.out.println("Mister! I left part of me in your shoes, enjoy!!!"); 
+	}
+	public void scarryNoize() {
+		if (name == "Alise")
+		System.out.println("What the noize??? I go to my box");
+		else
+			System.out.println("I dont what additional cat in My house!");
+	}
+
+	@Override
+	public String toString() {
+		return "Cat [name=" + name + ", color=" + color + ", weight=" + weight + ", age=" + age
+				+ ", health=" + health + ", strength=" + strength + "]";
+	}
+
+}
